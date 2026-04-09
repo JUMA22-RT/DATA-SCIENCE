@@ -1,6 +1,6 @@
 # Hi, I'm Maurice Juma 👋
 
-🎯 **Statistician | Data Analyst | Monitoring & Evaluation Professional**  
+🎯 **Statistician | Data Analyst | Data Science |Monitoring & Evaluation Professional**  
 📊 Specializing in **dashboard design, executive reporting, and stakeholder engagement**  
 🌍 Passionate about **healthcare & education analytics**  
 
