@@ -1,0 +1,37 @@
+name: Render RMarkdown and Publish
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      # Step 1: Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step 2: Set up R
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      # Step 3: Install dependencies
+      - name: Install packages
+        run: |
+          Rscript -e 'install.packages(c("rmarkdown"))'
+
+      # Step 4: Render RMarkdown to HTML
+      - name: Render RMarkdown
+        run: |
+          Rscript -e 'rmarkdown::render("Mental Health.Rmd", output_format="html_document", output_dir="docs")'
+
+      # Step 5: Commit HTML report to docs/
+      - name: Commit rendered report
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add docs/Mental\ Health.html
+          git commit -m "Auto-update HTML report"
+          git push
