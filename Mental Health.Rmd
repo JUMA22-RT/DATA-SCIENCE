@@ -1,17 +1,17 @@
 
 ---
 output:
-  pdf_document:
-    toc: false
-    toc_depth: 3
-  word_document:
-    toc: false
-    toc_depth: 3
   html_document:
     toc: true
     toc_depth: 3
     theme: cerulean
     css: styles.css
+  word_document:
+    toc: false
+    toc_depth: 3
+  pdf_document:
+    toc: false
+    toc_depth: 3
 geometry: top=0.7in, bottom=0.6in, left=0.3in, right=0.3in
 header-includes:
 - \usepackage{titlesec} 
@@ -33,7 +33,6 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyhf{}
 - \fancyhead[L]{\color{DodgerBlue}Mental Health Risk Prediction}
-- \fancyhead[R]{\textbf{Author:Maurice Juma}}
 - \fancyfoot[C]{\thepage}
 - \usepackage{enumitem}
 - \setlist{nosep}
@@ -43,6 +42,7 @@ header-includes:
 - \renewcommand{\familydefault}{\rmdefault}
 - \usepackage{setspace}     # For line spacing if needed
 - \usepackage{anyfontsize}  # Ensures font scaling works
+- \fancyhead[R]{\textbf{Author:Maurice Juma}}
 fontsize: 12pt
 ---
 \vspace*{-3em}
