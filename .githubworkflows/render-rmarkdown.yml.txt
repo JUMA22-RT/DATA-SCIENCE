@@ -25,7 +25,7 @@ jobs:
       # Step 4: Render RMarkdown to HTML
       - name: Render RMarkdown
         run: |
-          Rscript -e 'rmarkdown::render("Mental Health.Rmd", output_format="html_document", output_dir="docs")'
+          Rscript -e 'rmarkdown::render("Mental Health.Rmd", output_format="html_document")'
 
       # Step 5: Commit HTML report to docs/
       - name: Commit rendered report
