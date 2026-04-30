@@ -29,9 +29,9 @@
 ---
 
 ## 🌐 Connect With Me
-- [LinkedIn](link-to-linkedin)  
-- [Portfolio Website](link-to-website)  
-- [Email](mailto:your-email@example.com)  
+- [LinkedIn](www.linkedin.com/in/mouricejuma)  
+- [Portfolio Website]([link-to-website](https://juma22-rt.github.io/My-Website/))  
+- [Email](mauriceojuma2017@gmail.com)  
 
 ---
 ✨ *“Turning data into decisions, and dashboards into impact.”*
