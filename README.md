@@ -21,21 +21,6 @@
 
 ---
 
-## 📌 Featured Projects
-- [Healthcare Dashboard (Power BI)](link-to-repo)  
-  *Executive-ready visuals for patient outcomes and resource allocation.*  
-
-- [Education Analytics (R Shiny)](link-to-repo)  
-  *Interactive dashboards tracking student performance and program impact.*  
-
-- [Automated ETL Pipeline (Python & SQL)](link-to-repo)  
-  *Reduced reporting time by 40% through workflow automation.*  
-
-- [Monitoring & Evaluation Metrics (SQL)](link-to-repo)  
-  *Unified reporting framework for humanitarian projects.*  
-
----
-
 ## 📈 Current Focus
 - Designing **modular, interactive dashboards** for healthcare & education impact analysis  
 - Automating **data workflows** for reporting integrity  
