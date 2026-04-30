@@ -30,7 +30,7 @@
 
 ## 🌐 Connect With Me
 - [LinkedIn](www.linkedin.com/in/mouricejuma)  
-- [Portfolio Website]([link-to-website](https://juma22-rt.github.io/My-Website/))  
+- [Portfolio Website](https://juma22-rt.github.io/My-Website/)  
 - [Email](mauriceojuma2017@gmail.com)  
 
 ---
